@@ -7,6 +7,7 @@ namespace Xuni_QuickStart
 		public Xuni_QuickStartPage()
 		{
 			InitializeComponent();
+			Title = "Xuni Calendar";
 		}
 	}
 }

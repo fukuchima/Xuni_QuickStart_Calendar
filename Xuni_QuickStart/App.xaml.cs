@@ -9,7 +9,7 @@ namespace Xuni_QuickStart
 			InitializeComponent();
 			// ライセンスの設定
 			Xuni.Forms.Core.LicenseManager.Key = License.Key;
-			MainPage = new Xuni_QuickStartPage();
+			MainPage = new NavigationPage(new Xuni_QuickStartPage());
 		}
 
 		protected override void OnStart()
